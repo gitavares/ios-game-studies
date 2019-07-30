@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		E0104EE322EFC65300D2E2DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0104EE222EFC65300D2E2DB /* AppDelegate.swift */; };
-		E0104EE522EFC65300D2E2DB /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = E0104EE422EFC65300D2E2DB /* art.scnassets */; };
 		E0104EE722EFC65300D2E2DB /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0104EE622EFC65300D2E2DB /* GameViewController.swift */; };
 		E0104EEA22EFC65300D2E2DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0104EE822EFC65300D2E2DB /* Main.storyboard */; };
 		E0104EEC22EFC65600D2E2DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0104EEB22EFC65600D2E2DB /* Assets.xcassets */; };
@@ -18,7 +17,6 @@
 /* Begin PBXFileReference section */
 		E0104EDF22EFC65300D2E2DB /* SceneKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SceneKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0104EE222EFC65300D2E2DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E0104EE422EFC65300D2E2DB /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		E0104EE622EFC65300D2E2DB /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		E0104EE922EFC65300D2E2DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E0104EEB22EFC65600D2E2DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,7 +55,6 @@
 			isa = PBXGroup;
 			children = (
 				E0104EE222EFC65300D2E2DB /* AppDelegate.swift */,
-				E0104EE422EFC65300D2E2DB /* art.scnassets */,
 				E0104EE622EFC65300D2E2DB /* GameViewController.swift */,
 				E0104EE822EFC65300D2E2DB /* Main.storyboard */,
 				E0104EEB22EFC65600D2E2DB /* Assets.xcassets */,
@@ -125,7 +122,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0104EE522EFC65300D2E2DB /* art.scnassets in Resources */,
 				E0104EEF22EFC65600D2E2DB /* LaunchScreen.storyboard in Resources */,
 				E0104EEC22EFC65600D2E2DB /* Assets.xcassets in Resources */,
 				E0104EEA22EFC65300D2E2DB /* Main.storyboard in Resources */,
@@ -289,6 +285,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9YGPLVL77V;
 				INFOPLIST_FILE = SceneKitDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,6 +304,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9YGPLVL77V;
 				INFOPLIST_FILE = SceneKitDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
